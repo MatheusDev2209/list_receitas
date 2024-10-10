@@ -155,6 +155,19 @@
             overflow: hidden;
         }
 
+        .main-content-detail .recipe-list-item1 {
+            max-width: 84rem;
+            margin: 0 auto;
+            
+           
+          }
+          
+          .main-content-detail .recipe-list-item1:hover {
+            transform: scale(1);
+            box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2);
+            
+          }
+
         .recipe img {
             max-width: 100%;
         }
@@ -240,4 +253,5 @@
         footer a:hover {
             text-decoration: underline;
         }
+        
         

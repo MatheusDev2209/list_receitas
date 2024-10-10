@@ -1,0 +1,65 @@
+{% load static %}
+
+<div class="main-content main-content-detail container">
+    <div class="container-xl">
+        <div class="recipe recipe-list-item1">
+            <div class="recipe-cover1">
+                <img src="{% static 'img/burguer.png' %}" alt="Temporário">
+            </div>
+            <div class="recipe-title-container">
+                <center>
+                    <h2 class="recipe-title">Hamburguer de Sirí</h2>
+                </center>
+            </div>
+            <center>
+                <div class="recipe-author">
+                    <span class="recipe-author-item">
+                        <i class="fas fa-user"></i>
+                        Beatriz Alexandre
+                    </span>
+                    <span class="recipe-author-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        03/10/2024 às 07:21
+                    </span>
+                    <br>
+                    <span class="recipe-author-item">
+                        <a href="/recipes/category/cafe-da-manha/">
+                            <i class="fas fa-layer-group"></i>
+                            <span>Lanches</span>
+                        </a>
+                    </span>
+                </div>
+            </center>
+            <div class="recipe-content">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni fugiat commodi ullam quas
+                    modi.
+                    Ea cumque labore veniam, sequi corrupti quas beatae fuga alias quae, vero dicta accusamus
+                    aliquam in!</p>
+            </div>
+
+            <div class="recipe-meta-container">
+                <div class="recipe-meta recipe-preparation">
+                    <h3 class="recipe-meta-title"><i class="fas fa-stopwatch"></i> Preparo</h3>
+                    <div class="recipe-meta-text">
+                        30 Minutos
+                    </div>
+                </div>
+                <div class="recipe-meta recipe-servings">
+                    <h3 class="recipe-meta-title"><i class="fas fa-pizza-slice"></i> Porções</h3>
+                    <div class="recipe-meta-text">
+                        1 Porções
+                    </div>
+                </div>
+            </div>
+
+            <footer class="recipe-footer">
+                <a class="recipe-read-more button button-dark button-full-width" href="/recipes/3/">
+                    <i class="fas fa-eye"></i>
+                    <span>ver mais...</span>
+                </a>
+            </footer>
+
+        </div>
+    </div>
+
+</div>
